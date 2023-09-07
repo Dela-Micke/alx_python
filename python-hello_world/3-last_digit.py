@@ -2,7 +2,6 @@ import random
 def last_digit(num):
     last_digit_unsigned = abs(num) % 10
     return last_digit_unsigned if (num < 0) else last_digit_unsigned
-
 number = random.randint(-10000,10000)
 if last_digit(number) > 5:
     print("Last digit of ",number,"is",last_digit(number),"and is greater than 5\n")
