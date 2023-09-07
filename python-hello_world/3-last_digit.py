@@ -4,7 +4,6 @@ def last_digit(num):
     return last_digit_unsigned if (num < 0) else last_digit_unsigned
 
 number = random.randint(-10000,10000)
-#print("Last digit of ",last_digit(number),"is",last_digit(number))
 if last_digit(number) > 5:
     print("Last digit of ",number,"is",last_digit(number),"and is greater than 5\n")
 elif last_digit(number) == 0:
